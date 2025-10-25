@@ -1,0 +1,56 @@
+"use strict";
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+    [74161], {
+        74161: function(e, s, t) {
+            t.r(s);
+            var l = t(67294),
+                r = t(45697),
+                o = t.n(r),
+                i = (0, l.memo)((function(e) {
+                    var s = e.size,
+                        t = e.strokeColor,
+                        r = e.strokeWidth,
+                        o = e.fillColor,
+                        i = e.svgClass,
+                        a = e.className,
+                        n = e.svgTitle,
+                        c = {
+                            fill: o,
+                            stroke: t,
+                            strokeWidth: r,
+                            pointerEvents: "none"
+                        };
+                    return l.createElement("svg", {
+                        className: [i, a].filter(Boolean).join(" "),
+                        height: s,
+                        width: s,
+                        style: c,
+                        viewBox: "0 0 24 24",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "aria-labelledby": "VoituresTitleID"
+                    }, l.createElement("title", {
+                        id: "VoituresTitleID"
+                    }, n || "Voitures Icon"), l.createElement("path", {
+                        d: "M23.5 7a.5.5 0 01.5.5v.511c0 .793-.926.989-1.616.989l-1.086-2H23.5zm-1.441 3.506c.639 1.186.946 2.252.946 3.666 0 1.37-.397 2.533-1.005 3.981V20a1 1 0 01-1 1h-1.5a1 1 0 01-1-1v-1h-13v1a1 1 0 01-1 1H3a1 1 0 01-1-1v-1.847C1.392 16.705.995 15.542.995 14.172c0-1.414.307-2.48.946-3.666.829-1.537 1.851-3.453 2.93-5.252.828-1.382 1.262-1.707 2.278-1.889C8.681 3.09 10.067 3 12 3c1.933 0 3.319.09 4.851.365 1.016.182 1.45.507 2.278 1.889 1.079 1.799 2.101 3.715 2.93 5.252zM6 13.5a1.5 1.5 0 10-3.001.001A1.5 1.5 0 006 13.5zm10 1a.5.5 0 00-.5-.5h-7a.5.5 0 000 1h7a.5.5 0 00.5-.5zm2.941-5.527s-.74-1.826-1.631-3.142a1.337 1.337 0 00-.869-.566c-1.511-.272-2.835-.359-4.441-.359-1.606 0-2.93.087-4.441.359a1.33 1.33 0 00-.869.566c-.891 1.315-1.631 3.142-1.631 3.142 1.64.313 4.309.497 6.941.497 2.632 0 5.301-.184 6.941-.497zM21 13.5a1.5 1.5 0 10-3.001.001A1.5 1.5 0 0021 13.5zM2.702 7H.5a.5.5 0 00-.5.5v.511C0 8.804.926 9 1.616 9l1.086-2z"
+                    }))
+                }));
+            i.defaultProps = {
+                strokeColor: "currentColor",
+                strokeWidth: 0,
+                fillColor: "currentColor",
+                size: 32,
+                svgClass: "sui-SVGicon",
+                className: "",
+                svgTitle: null
+            }, i.propTypes = {
+                strokeColor: o().string,
+                strokeWidth: o().oneOfType([o().string, o().number]),
+                fillColor: o().string,
+                size: o().oneOfType([o().string, o().number]),
+                svgClass: o().string,
+                className: o().string,
+                svgTitle: o().string
+            }, s.default = i
+        }
+    }
+]);
